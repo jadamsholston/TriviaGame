@@ -1,7 +1,9 @@
 var correctchoices=['a','b','c','d'];
 
 $(document).ready(function(){
-    setInterval(function(){ alert('Time is up! 20 seconds have passed! Click OK to see your results'); getUserAnswers(); }, 20000);
+    setInterval(function(){ 
+        alert('Time is up! 20 seconds have passed! Click OK to see your results'); 
+        getUserAnswers(); }, 20000);
 });
 
 $(document).on('click', '#start', function(e) {
